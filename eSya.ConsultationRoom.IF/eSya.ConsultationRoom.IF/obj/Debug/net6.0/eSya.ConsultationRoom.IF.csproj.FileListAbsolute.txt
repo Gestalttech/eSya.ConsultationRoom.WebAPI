@@ -1,0 +1,15 @@
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\bin\Debug\net6.0\eSya.ConsultationRoom.IF.deps.json
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\bin\Debug\net6.0\eSya.ConsultationRoom.IF.dll
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\bin\Debug\net6.0\eSya.ConsultationRoom.IF.pdb
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\bin\Debug\net6.0\eSya.ConsultationRoom.DO.dll
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\bin\Debug\net6.0\eSya.ConsultationRoom.DO.pdb
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\eSya.ConsultationRoom.IF.csproj.AssemblyReference.cache
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\eSya.ConsultationRoom.IF.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\eSya.ConsultationRoom.IF.AssemblyInfoInputs.cache
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\eSya.ConsultationRoom.IF.AssemblyInfo.cs
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\eSya.ConsultationRoom.IF.csproj.CoreCompileInputs.cache
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\eSya.ConsultationRoom.IF.csproj.CopyComplete
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\eSya.ConsultationRoom.IF.dll
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\refint\eSya.ConsultationRoom.IF.dll
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\eSya.ConsultationRoom.IF.pdb
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\ref\eSya.ConsultationRoom.IF.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "eSya.ConsultationRoom.IF/1.0.0": {
+        "dependencies": {
+          "eSya.ConsultationRoom.DO": "1.0.0"
+        },
+        "runtime": {
+          "eSya.ConsultationRoom.IF.dll": {}
+        }
+      },
+      "eSya.ConsultationRoom.DO/1.0.0": {
+        "runtime": {
+          "eSya.ConsultationRoom.DO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eSya.ConsultationRoom.IF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eSya.ConsultationRoom.DO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
