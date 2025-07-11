@@ -18,4 +18,19 @@ namespace eSya.ConsultationRoom.DO
         public int CodeType { get; set; }
         public string CodeDesc { get; set; }
     }
+    public class DO_Floor
+    {
+        public int FloorId { get; set; }
+        public string FloorName { get; set; }
+    }
+    public class DO_Lounge
+    {
+        public int LoungeID { get; set; }
+        public string LoungeName { get; set; }
+    }
+    public class DO_Area
+    {
+        public int AreaID { get; set; }
+        public string AreaName { get; set; }
+    }
 }

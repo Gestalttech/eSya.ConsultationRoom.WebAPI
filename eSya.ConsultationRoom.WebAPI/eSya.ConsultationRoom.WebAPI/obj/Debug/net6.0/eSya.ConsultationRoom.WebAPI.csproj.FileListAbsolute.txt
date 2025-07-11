@@ -277,3 +277,4 @@ D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.
 D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.WebAPI\obj\Debug\net6.0\eSya.ConsultationRoom.WebAPI.genruntimeconfig.cache
 D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.WebAPI\obj\Debug\net6.0\ref\eSya.ConsultationRoom.WebAPI.dll
 D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.WebAPI\bin\Debug\net6.0\eSya.ConsultationRoom.WebAPI.staticwebassets.runtime.json
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.WebAPI\obj\Debug\net6.0\eSya.ConsultationRoom.WebAPI.sourcelink.json

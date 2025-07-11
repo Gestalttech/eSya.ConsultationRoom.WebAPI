@@ -9,3 +9,4 @@ D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.
 D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.DO\eSya.ConsultationRoom.DO\obj\Debug\net6.0\refint\eSya.ConsultationRoom.DO.dll
 D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.DO\eSya.ConsultationRoom.DO\obj\Debug\net6.0\eSya.ConsultationRoom.DO.pdb
 D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.DO\eSya.ConsultationRoom.DO\obj\Debug\net6.0\ref\eSya.ConsultationRoom.DO.dll
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.DO\eSya.ConsultationRoom.DO\obj\Debug\net6.0\eSya.ConsultationRoom.DO.sourcelink.json

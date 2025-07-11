@@ -8,6 +8,7 @@ namespace eSya.ConsultationRoom.DL.Entities
     public partial class eSyaEnterprise : DbContext
     {
         public static string _connString = "";
+
         public eSyaEnterprise()
         {
         }
@@ -18,8 +19,11 @@ namespace eSya.ConsultationRoom.DL.Entities
         }
 
         public virtual DbSet<GtAddrct> GtAddrcts { get; set; } = null!;
+        public virtual DbSet<GtEacorm> GtEacorms { get; set; } = null!;
         public virtual DbSet<GtEcapcd> GtEcapcds { get; set; } = null!;
         public virtual DbSet<GtEcbsln> GtEcbslns { get; set; } = null!;
+        public virtual DbSet<GtEccsrm> GtEccsrms { get; set; } = null!;
+        public virtual DbSet<GtTokm02> GtTokm02s { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -56,6 +60,35 @@ namespace eSya.ConsultationRoom.DL.Entities
                 entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
 
                 entity.Property(e => e.Stdcode).HasColumnName("STDCode");
+            });
+
+            modelBuilder.Entity<GtEacorm>(entity =>
+            {
+                entity.HasKey(e => new { e.BusinessKey, e.LoungeKey, e.ConsultRoomNo });
+
+                entity.ToTable("GT_EACORM");
+
+                entity.Property(e => e.ConsultRoomNo).HasMaxLength(10);
+
+                entity.Property(e => e.CreatedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.FormId)
+                    .HasMaxLength(10)
+                    .IsUnicode(false)
+                    .HasColumnName("FormID");
+
+                entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.Remarks).HasMaxLength(50);
+
+                entity.Property(e => e.RoomStatus)
+                    .HasMaxLength(1)
+                    .IsUnicode(false)
+                    .IsFixedLength();
             });
 
             modelBuilder.Entity<GtEcapcd>(entity =>
@@ -128,6 +161,49 @@ namespace eSya.ConsultationRoom.DL.Entities
                 entity.Property(e => e.ShortDateFormat).HasMaxLength(15);
 
                 entity.Property(e => e.ShortDesc).HasMaxLength(15);
+            });
+
+            modelBuilder.Entity<GtEccsrm>(entity =>
+            {
+                entity.HasKey(e => new { e.BusinessKey, e.Lounge, e.FloorId, e.Area });
+
+                entity.ToTable("GT_ECCSRM");
+
+                entity.Property(e => e.CreatedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.FormId)
+                    .HasMaxLength(10)
+                    .IsUnicode(false)
+                    .HasColumnName("FormID");
+
+                entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
+            });
+
+            modelBuilder.Entity<GtTokm02>(entity =>
+            {
+                entity.HasKey(e => new { e.BusinessKey, e.Lounge, e.FloorId, e.Area, e.CounterNumber })
+                    .HasName("PK_GT_TOKM03_1");
+
+                entity.ToTable("GT_TOKM02");
+
+                entity.Property(e => e.CounterNumber).HasMaxLength(10);
+
+                entity.Property(e => e.CreatedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.FormId)
+                    .HasMaxLength(10)
+                    .IsUnicode(false)
+                    .HasColumnName("FormID");
+
+                entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
             });
 
             OnModelCreatingPartial(modelBuilder);

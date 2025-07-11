@@ -13,3 +13,4 @@ D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.
 D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\refint\eSya.ConsultationRoom.IF.dll
 D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\eSya.ConsultationRoom.IF.pdb
 D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\ref\eSya.ConsultationRoom.IF.dll
+D:\Projects\eSyaProjects2022\eSya.ConsultationRoom.WebAPI\eSya.ConsultationRoom.IF\eSya.ConsultationRoom.IF\obj\Debug\net6.0\eSya.ConsultationRoom.IF.sourcelink.json
