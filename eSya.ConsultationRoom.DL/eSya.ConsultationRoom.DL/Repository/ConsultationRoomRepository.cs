@@ -164,7 +164,7 @@ namespace eSya.ConsultationRoom.DL.Repository
                         if (_rmheader != null)
                         {
                             _rmheader.NoOfConsRoom = obj.NoOfConsRoom;
-                            _rmheader.RoomCount = obj.RoomCount;
+                            //_rmheader.RoomCount = obj.RoomCount;
                             _rmheader.ActiveStatus = obj.ActiveStatus;
                             _rmheader.ModifiedBy = obj.UserID;
                             _rmheader.ModifiedOn = System.DateTime.Now;
@@ -185,7 +185,7 @@ namespace eSya.ConsultationRoom.DL.Repository
                                 Area=obj.Area,
                                 LoungeKey= _loungekey,
                                 NoOfConsRoom=obj.NoOfConsRoom,
-                                RoomCount=obj.RoomCount,
+                                //RoomCount=obj.RoomCount,
                                 ActiveStatus=obj.ActiveStatus,
                                 FormId=obj.FormID,
                                 CreatedBy=obj.UserID,
